@@ -10,7 +10,9 @@ import axios from "axios";
 toast.configure();
 function FormPage() {
   const notify = () => {
-    toast("Data Saved Sucessfully ");
+    toast.success("Data Saved Sucessfully", {
+      autoClose: 3000,
+    });
   };
   const [input, setInput] = React.useState({
     name: "",
