@@ -1,0 +1,44 @@
+.form {
+  width: 50%;
+  max-height: 330px;
+  padding: 15px;
+  margin: auto;
+  height: 100%;
+  padding-bottom: 700px;
+}
+.table {
+  width: 50%;
+  max-height: 330px;
+  padding: 15px;
+  margin: auto;
+  height: 100%;
+}
+
+.top-padding {
+  padding-top: 200px;
+}
+
+.little-padding {
+  padding-top: 20px;
+}
+
+.extra-padding {
+  padding-top: 250px;
+}
+
+table td {
+  position: relative;
+}
+
+table td input {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  border: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
