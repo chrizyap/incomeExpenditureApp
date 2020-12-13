@@ -354,7 +354,7 @@ function FormPage() {
             </table>
             <h6>
               Note: All fields must be filled for calculation to be made. (If no
-              amount, type 0.)
+              amount, type "0".)
             </h6>
 
             <div className="little-padding"></div>
