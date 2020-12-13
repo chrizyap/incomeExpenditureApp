@@ -352,6 +352,10 @@ function FormPage() {
                 <td></td>
               </tr>
             </table>
+            <h6>
+              Note: All fields must be filled for calculation to be made. (If no
+              amount, type 0.)
+            </h6>
 
             <div className="little-padding"></div>
 
@@ -368,7 +372,7 @@ function FormPage() {
             dob={input.dob}
             address={input.address}
           />
-
+          <div className="little-padding"></div>
           <EIResults
             disposableIncome={disposableIncome()}
             disposableIncome={disposableIncome()}
@@ -377,9 +381,13 @@ function FormPage() {
           />
           {/* <EIResults disposableIncome={0} /> */}
           <div className="little-padding">
-            <button className="btn btn-primary" onClick={handleClick}>
+            <button
+              className="btn btn-primary  btn-block"
+              onClick={handleClick}
+            >
               Submit Data
             </button>
+            {/* <div className="little-padding"></div> */}
           </div>
         </div>
       </div>
